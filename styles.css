@@ -1,0 +1,30 @@
+html, body {
+    margin: auto;
+    background-color: lightsteelblue;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#generate-button {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border-radius: 50px;
+    background-color: rgb(216, 216, 150);
+}
+
+#generate-button:hover {
+    background-color: rgb(255, 255, 212);
+}
+
+.footer {
+    align-self:flex-start;
+    margin-left: 2em;
+}
