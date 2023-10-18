@@ -23,7 +23,7 @@ html, body {
 }
 
 #fact-display{
-    background-color: lightcoral;
+    font-weight: bolder;
     max-width: 85%;
     font-size: large;
 }
