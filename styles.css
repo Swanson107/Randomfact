@@ -9,6 +9,23 @@ html, body {
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
+    background-color: lightgreen;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50em;
+    height: 20em;
+    background-color: lightcyan;
+}
+
+#fact-display{
+    background-color: lightcoral;
+    max-width: 85%;
+    font-size: large;
 }
 
 #generate-button {
